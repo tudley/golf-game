@@ -16,22 +16,40 @@ screen = pygame.display.set_mode((1280, 720))
 
 # Load assets
 background = pygame.image.load(os.path.join(
-    "golf-game", "assets", "background.png")).convert()
+    # "golf-game",
+    "assets",
+    "background.png"
+)).convert()
 
 barrier_img = pygame.image.load(os.path.join(
-    "golf-game", "assets", "barrier.png")).convert()
+    # "golf-game",
+    "assets",
+    "barrier.png"
+)).convert()
 
 vertical_barrier_left_img = pygame.image.load(os.path.join(
-    "golf-game", "assets", "vertical_barrier_left.png")).convert()
+    # "golf-game",
+    "assets",
+    "vertical_barrier_left.png"
+)).convert()
 
 vertical_barrier_right_img = pygame.image.load(os.path.join(
-    "golf-game", "assets", "vertical_barrier_right.png")).convert()
+    # "golf-game",
+    "assets",
+    "vertical_barrier_right.png"
+)).convert()
 
 green_img = pygame.image.load(os.path.join(
-    "golf-game", "assets", "green.png")).convert_alpha()
+    # "golf-game",
+    "assets",
+    "green.png"
+)).convert_alpha()
 
 ball_img = pygame.image.load(os.path.join(
-    "golf-game", "assets", "ball.png")).convert_alpha()
+    # "golf-game",
+    "assets",
+    "ball.png"
+)).convert_alpha()
 
 # Create objects
 
